@@ -142,10 +142,6 @@ func (codex *Codex) Invoke(ctx context.Context, prompt string, options ...Invoke
 		arguments["config"] = opts.Config
 	}
 
-	if opts.Cwd != nil {
-		arguments["cwd"] = *opts.Cwd
-	}
-
 	if opts.IncludePlanTool != nil {
 		arguments["include-plan-tool"] = *opts.IncludePlanTool
 	}
