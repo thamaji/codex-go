@@ -6,7 +6,6 @@
 	"remoteUser": "vscode",
 	"updateRemoteUserUID": true,
 	"workspaceFolder": "/workspace",
-	"postCreateCommand": "lefthook install",
 	"features": {
 		"ghcr.io/thamaji/devcontainer-features/lefthook:latest": {},
         "ghcr.io/thamaji/devcontainer-features/gitleaks:latest": {}
